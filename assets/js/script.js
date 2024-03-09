@@ -87,12 +87,10 @@ const caricaImmagini = async () => {
 };
 
 const nuovoArticolo = {
-  name: "Nuovo prodotto2",
+  name: "Nuovo prodotto3",
   brand: "Brand del nuovo prodotto",
   price: 100,
   description: "Descrizione del nuovo prodotto",
   imageUrl:
     "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/franchise/alienware-laptops/dell-alienware-lt-franchise-cd-1920x1440-x16-mod03-collapsed-1.png?fmt=png-alpha&wid=1920&hei=1440",
 };
-
-//aggiungiArticolo(nuovoArticolo);

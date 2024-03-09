@@ -9,3 +9,8 @@
 #delete{
     width: 20vw;
 }
+
+.contenitorePrezzo{
+    width: 100px;
+    font-size: 0.80rem;
+}

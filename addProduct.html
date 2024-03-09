@@ -33,53 +33,63 @@
     </header>
 
     <main>
-      <div class="mb-3 mt-5 mx-5">
-        <h3 class="border-bottom">Add Product</h3>
-        <label for="nome" class="form-label">Nome</label>
-        <input
-          type="text"
-          class="form-control"
-          id="nome"
-          placeholder="Nome prodotto"
-        />
-        <label for="brand" class="form-label">Brand</label>
-        <input
-          type="text"
-          class="form-control"
-          id="brand"
-          placeholder="Modello"
-        />
-        <label for="prezzo" class="form-label">Prezzo</label>
-        <input
-          type="number"
-          class="form-control"
-          id="prezzo"
-          placeholder="0$"
-        />
-        <label for="immagine" class="form-label">URL Immagine</label>
-        <input
-          type="text"
-          class="form-control"
-          id="immagine"
-          placeholder="http://placehold.it/300x400"
-        />
-      </div>
-      <div class="mb-3 mx-5">
-        <label for="descrizioneProdotto" class="form-label"
-          >Descrizione Prodotto</label
-        >
-        <textarea
-          class="form-control"
-          id="descrizioneProdotto"
-          rows="3"
-        ></textarea>
-      </div>
-      <form class="row g-3 d-flex justify-content-end">
-        <div class="col-auto me-0">
-          <button type="submit" class="btn mb-3 px-4 border border " id="reset">Reset</button>
+      <form class="container">
+        <div class="mb-3 mt-5">
+          <h3 class="border-bottom">Add Product</h3>
+          <label for="nome" class="form-label">Nome</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nome"
+            placeholder="Nome prodotto"
+          />
+          <label for="brand" class="form-label">Brand</label>
+          <input
+            type="text"
+            class="form-control"
+            id="brand"
+            placeholder="Modello"
+          />
+          <label for="prezzo" class="form-label">Prezzo</label>
+          <input
+            type="number"
+            class="form-control"
+            id="prezzo"
+            placeholder="0$"
+          />
+          <label for="immagine" class="form-label">URL Immagine</label>
+          <input
+            type="text"
+            class="form-control"
+            id="immagine"
+            placeholder="http://placehold.it/300x400"
+          />
         </div>
-        <div class="col-auto me-5">
-          <button type="submit" class="btn btn-warning mb-3 px-4" id="save">Save</button>
+        <div class="mb-3">
+          <label for="descrizioneProdotto" class="form-label"
+            >Descrizione Prodotto</label
+          >
+          <textarea
+            class="form-control"
+            id="descrizioneProdotto"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="d-flex justify-content-end">
+          <div class="mx-2">
+            <button
+              type="submit"
+              class="btn mb-3 px-4 border border"
+              id="reset"
+            >
+              Reset
+            </button>
+          </div>
+          <div class="ms-2">
+            <button type="submit" class="btn btn-warning mb-3 px-4" id="save">
+              Save
+            </button>
+          </div>
         </div>
       </form>
     </main>
@@ -88,6 +98,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/aggiungi.js"></script>
   </body>
 </html>
